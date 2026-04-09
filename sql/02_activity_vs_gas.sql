@@ -1,3 +1,6 @@
+-- Daily network activity and average gas price (last 90 days)
+-- Used to analyze relationship between transaction volume and network cost
+
 SELECT
   DATE(block_timestamp) AS fecha,
   COUNT(*) AS transacciones,
