@@ -1,3 +1,5 @@
+-- Daily transaction volume on Ethereum network (last 90 days)
+
 SELECT
   DATE(block_timestamp) AS fecha,
   COUNT(*) AS transacciones
