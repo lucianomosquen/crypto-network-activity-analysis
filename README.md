@@ -63,3 +63,48 @@ For crypto fintech products, this kind of analysis helps evaluate cost exposure,
 Luciano Mosquén  
 Data Analyst
 
+
+## 🇪🇸 Versión en español
+
+## Objetivo
+
+El objetivo de este proyecto es analizar el comportamiento de la actividad en la red Ethereum, evaluando cómo evoluciona el volumen de transacciones, cómo fluctúan los costos (gas) y cómo se distribuye el volumen según el tamaño de las transacciones.
+
+Este tipo de análisis es relevante para fintechs que trabajan con productos crypto, donde los costos de red y el comportamiento de los usuarios impactan directamente en la experiencia y la operación.
+
+## Herramientas utilizadas
+
+- Google BigQuery  
+- SQL  
+- Power BI  
+
+## Dataset
+
+Fuente: `bigquery-public-data.crypto_ethereum.transactions`
+
+El análisis se enfoca en los últimos 90 días e incluye:
+
+- Volumen diario de transacciones  
+- Precio promedio del gas  
+- Segmentación de transacciones por tamaño  
+- Participación de transacciones pequeñas, medianas y grandes  
+
+## Preguntas clave
+
+- ¿La actividad de la red está creciendo, cayendo o estable?
+- ¿Existe relación entre el volumen de transacciones y el costo (gas)?
+- ¿Qué tipo de transacciones dominan la red?
+- ¿Cómo evoluciona la composición de las transacciones?
+
+## Principales hallazgos
+
+- El volumen diario de transacciones se mantiene relativamente estable, con un promedio de **2.22 millones de transacciones por día**.  
+- El precio del gas es altamente volátil, con un promedio de **47.9 Gwei**.  
+- Aproximadamente el **87.8%** de las transacciones son pequeñas.  
+- No se encontró una correlación fuerte entre volumen de transacciones y costo, lo que sugiere que el gas depende de factores adicionales al simple volumen.
+
+## Interpretación de negocio
+
+La red presenta una actividad estable pero con costos altamente variables. Además, el volumen está dominado por transacciones pequeñas, lo que sugiere un uso intensivo y distribuido, más asociado a microinteracciones o aplicaciones descentralizadas que a transferencias de alto valor.
+
+Este tipo de análisis permite a una fintech evaluar exposición a costos, comportamiento de usuarios y posibles fricciones en productos basados en blockchain.
