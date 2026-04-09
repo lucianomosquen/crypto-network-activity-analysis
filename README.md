@@ -41,7 +41,7 @@ The analysis focuses on the last 90 days of Ethereum transactions and includes:
 
 ## Dashboard Preview
 
-![Dashboard](images/dashboard_full.jpg)
+![Dashboard](images/Dashboard_full.jpg)
 
 ## Repository Structure
 
