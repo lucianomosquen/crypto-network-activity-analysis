@@ -1,3 +1,6 @@
+-- Final dataset used in Power BI dashboard
+-- Combines activity, gas price and transaction segmentation
+
 WITH base AS (
   SELECT
     DATE(block_timestamp) as fecha,
