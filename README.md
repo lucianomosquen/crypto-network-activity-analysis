@@ -39,6 +39,10 @@ The analysis focuses on the last 90 days of Ethereum transactions and includes:
 - Around **87.8%** of total transactions were small transactions.
 - No strong correlation was found between transaction volume and gas price, suggesting that network cost is influenced by more than just transaction count.
 
+## Dashboard Preview
+
+![Dashboard](images/dashboard_full.png)
+
 ## Repository Structure
 
 ```bash
