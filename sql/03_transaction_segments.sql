@@ -1,3 +1,6 @@
+-- Transaction segmentation by size (small, medium, large)
+-- Used to understand distribution of transaction types on the network
+
 SELECT
   DATE(block_timestamp) AS fecha,
   COUNT(*) AS transacciones,
