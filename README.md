@@ -62,11 +62,6 @@ The network shows stable activity levels but highly volatile costs. In addition,
 
 For crypto fintech products, this kind of analysis helps evaluate cost exposure, user behavior, and potential friction caused by network fees.
 
-## Author
-
-Luciano Mosquén  
-Data Analyst
-
 
 ## 🇪🇸 Versión en español
 
@@ -112,3 +107,9 @@ El análisis se enfoca en los últimos 90 días e incluye:
 La red presenta una actividad estable pero con costos altamente variables. Además, el volumen está dominado por transacciones pequeñas, lo que sugiere un uso intensivo y distribuido, más asociado a microinteracciones o aplicaciones descentralizadas que a transferencias de alto valor.
 
 Este tipo de análisis permite a una fintech evaluar exposición a costos, comportamiento de usuarios y posibles fricciones en productos basados en blockchain.
+
+
+## Author
+
+Luciano Mosquén  
+Data Analyst
